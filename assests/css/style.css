@@ -6,6 +6,8 @@ a{
 input:focus, textarea:focus {
     outline: 0;
 }
+/* _______________________/Index Page\_______________________*/
+
 body{
     cursor:crosshair;
     margin: 0;
@@ -13,9 +15,12 @@ body{
     /* margin: 0 5%; */
 
 }
+
+/* Header Section */
+
 header{
-position: relative; 
-    height: 85vh;
+    position: relative; 
+    height: 90vh;
     
     
 
@@ -80,7 +85,11 @@ nav ul li{
     float: left;
 }
 
-/* LMS */
+/* End Header Section */
+
+
+/* LMS Section */
+
 .lmsLogin{
     border: 2px solid rgb(173, 171, 171);
     background-color: #e9e8abd0;
@@ -161,4 +170,5 @@ nav ul li{
     float: right;
     
 }
-/* End LMS */
+
+/* End LMS Section */
