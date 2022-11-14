@@ -20,7 +20,7 @@ body{
 
 header{
     position: relative; 
-    height: 90vh;
+    height: 668px;
     
     
 
@@ -30,8 +30,8 @@ header::before {
     content: "";
     background-image: url(/assests/images/headerBackground.jpg) ;
     z-index: -1;
-    background-position-y:-85px ;
-    background-size: 131%;
+    background-position-y:center ;
+    background-size: 111%;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -40,12 +40,18 @@ header::before {
     opacity: 66%;
     
 }
+
+#logo{
+    width: 110px;
+    margin-top: -16px;
+    vertical-align: middle;
+}
 nav {
-    border-bottom: 5px solid rgb(226, 101, 101);
+    border-bottom: 5px solid #131F42;
     font-size: 20px;
     width: 100%;
-    height: 80px;
-    background-color: #e9e8abd0;
+    height: 82px;
+    background-color: #4b5367f8;
 }
 
 #logo{
@@ -61,12 +67,13 @@ nav ul{
     
     
     
+    
 }
 
 nav ul li{
     display: inline-block;
-    margin-left: 16px;
-    color: rgb(0, 0, 0);
+    margin-left: 40px;
+    color: #B7965B;
 }
 
 #contactUs{
@@ -91,8 +98,8 @@ nav ul li{
 /* LMS Section */
 
 .lmsLogin{
-    border: 2px solid rgb(173, 171, 171);
-    background-color: #e9e8abd0;
+    border: 2px solid rgb(158, 168, 226);
+    background-color: #4b5367de;
     float: right;
     height: 250px;
     margin-top: 40px;
@@ -103,7 +110,7 @@ nav ul li{
 
 .lmsLogin h3{
     text-align: center;
-    color: brown;
+    color: rgb(0, 0, 0);
 }
 
 #teachers{
@@ -128,7 +135,7 @@ nav ul li{
  
 .lmsUsername{
     padding-left: 5px;
-    background-color: rgb(240, 234, 234);
+    background-color: rgb(191, 204, 219);
     width: auto;
     margin-top: 50px;
     height: 30px;
